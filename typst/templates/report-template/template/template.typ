@@ -34,7 +34,6 @@
       title:title,
       author:authors,
       name:name,
-      class:class,
       grade:grade,
       department:department,
       date:date,
@@ -49,11 +48,11 @@
   }
     show figure: it => {
     set align(center)
-      locate(loc => {
-        let chapt = counter(heading).at(loc).at(0)
-        let c = counter(it.kind + "-chapter" + str(chapt))
-        c.step()
-      })
+      // locate(loc => {
+      //   let chapt = counter(heading).at(loc).at(0)
+      //   let c = counter(it.kind + "-chapter" + str(chapt))
+      //   c.step()
+      // })
     if it.kind == "image" {
       set text(font: font_style.heiti, size: 12pt)
       it.body

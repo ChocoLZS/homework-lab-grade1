@@ -4,7 +4,6 @@
   title: "xxx课程实验报告",
   name:"xxx实验",
   id: "202110001000",
-  class: "计科2100",
   authors: "作者",
   department: "计算机学院",
   date: (2023, 5, 15),

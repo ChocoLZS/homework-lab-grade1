@@ -50,14 +50,12 @@
   title:"",
   author:"",
   name:"",
-  class:"",
   grade:"",
   department:"",
   date:(2023, 04, 17),
   id:"",
 ) = {
   align(center + horizon)[
-    #image("asserts/校名.png", width: 60%)
     #text(title, size: 24pt, font: font_style.songti, weight: "bold")\
     #text("(" + grade + "级)", size: 20pt, font: font_style.songti)\
     #image("asserts/校徽.png", width: 40%)
@@ -72,8 +70,6 @@
       _info_value(author),
       _info_key("学　　号"),
       _info_value(id),
-      _info_key("专业班级"),
-      _info_value(class),
       _info_key("所在学院"),
       _info_value(department),
       _info_key("提交日期"),
